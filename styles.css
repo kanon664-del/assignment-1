@@ -143,3 +143,158 @@
         color: #777;
     }
 
+
+
+       .pricing-section {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 90px 20px 100px;
+        background-color: white;
+    }
+
+    .pricing-heading {
+        margin-bottom: 42px;
+        text-align: center;
+    }
+
+    .pricing-heading h2 {
+        margin-bottom: 14px;
+        color: #0d1b2a;
+        font-size: 44px;
+    }
+
+    .pricing-heading p {
+        color: #777;
+        font-size: 16px;
+    }
+
+    .pricing-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .pricing-card {
+        min-height: 390px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        border: 1px solid #e1e5eb;
+        border-radius: 12px;
+        background-color: white;
+    }
+
+    .plan-name {
+        margin-bottom: 8px;
+        color: #888;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+    .price {
+        color: #0d1b2a;
+        font-size: 42px;
+        font-weight: bold;
+    }
+
+    .price-description {
+        color: #888;
+        font-size: 14px;
+    }
+
+    .pricing-card hr {
+        width: 100%;
+        margin: 20px 0;
+        border: none;
+        border-top: 1px solid #e5e5e5;
+    }
+
+    .features {
+        flex: 1;
+
+        list-style: none;
+    }
+
+    .features li {
+        margin-bottom: 13px;
+        color: #555;
+        font-size: 14px;
+    }
+
+
+    .features li::before {
+        content: "•";
+        margin-right: 10px;
+        color: #2864e8;
+        font-size: 18px;
+    }
+
+    .pricing-btn {
+        width: 100%;
+        padding: 11px;
+        border-radius: 7px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .standard-btn {
+        border: 1px solid #2864e8;
+        background-color: white;
+        color: #2864e8;
+    }
+
+    .standard-btn:hover {
+        background-color: #2864e8;
+        color: white;
+    }
+
+    .pro-card {
+        border-color: #0d1b2a;
+        background-color: #0d1b2a;
+    }
+
+    .pro-card .plan-name {
+        color: #8eb9f5;
+    }
+
+    .pro-card .price {
+        color: white;
+    }
+
+    .pro-card .price-description {
+        color: #b7c0ca;
+    }
+
+    .pro-card hr {
+        border-color: #263544;
+    }
+
+    .pro-card .features li {
+        color: #b7c0ca;
+    }
+
+    .pro-btn {
+        border: none;
+        background-color: #2864e8;
+        color: white;
+    }
+
+    .pro-btn:hover {
+        background-color: #1c4fc0;
+    }
+
+    .team-card {
+        background-color: #f8f9fb;
+    }
+
+    .team-btn {
+        border: 1px solid #6d747c;
+        background-color: transparent;
+        color: #26313d;
+    }
+
+    .team-btn:hover {
+        background-color: #26313d;
+        color: white;
+    }
