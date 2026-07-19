@@ -98,7 +98,7 @@
         background-color: #1745b8;
     }
 
-        .speakers-section {
+    .speakers-section {
         width: fit-content;
         margin: 30px auto;
         padding: 0 20px 40px;
@@ -145,7 +145,7 @@
 
 
 
-       .pricing-section {
+    .pricing-section {
         max-width: 1200px;
         margin: 0 auto;
         padding: 90px 20px 100px;
@@ -463,4 +463,33 @@
 
     .cta-button:hover {
         background-color: #174bbd;
+    }
+
+    .footer {
+        height: 70px;
+        background-color: #0b1b2a;
+        color: #687584;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 55px;
+    }
+
+    .copyright {
+        font-size: 9px;
+    }
+
+    .footer-links {
+        display: flex;
+        gap: 20px;
+    }
+
+    .footer-links a {
+        color: #687584;
+        text-decoration: none;
+        font-size: 9px;
+    }
+
+    .footer-links a:hover {
+        color: white;
     }
