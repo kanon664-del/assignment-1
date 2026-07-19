@@ -298,3 +298,169 @@
         background-color: #26313d;
         color: white;
     }
+
+
+    .build-lab {
+        background-color: #0b1420;
+        color: white;
+        padding: 100px 20px;
+        overflow: hidden;
+    }
+
+    .build-lab-container {
+        max-width: 1150px;
+        margin: 0 auto;
+    }
+
+    .build-lab-header {
+        max-width: 700px;
+        margin-bottom: 55px;
+    }
+
+    .section-label {
+        display: inline-block;
+        color: #4c8dff;
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin-bottom: 18px;
+    }
+
+    .build-lab-header h2 {
+        font-size: 48px;
+        line-height: 1.1;
+        margin-bottom: 20px;
+    }
+
+    .build-lab-header h2 span {
+        color: #4c8dff;
+    }
+
+    .build-lab-header p {
+        max-width: 600px;
+        color: #aeb8c5;
+        font-size: 17px;
+        line-height: 1.6;
+    }
+
+    .experience-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 22px;
+    }
+
+    .experience-card {
+        position: relative;
+        min-height: 340px;
+        padding: 32px;
+        background-color: #111f2e;
+        border: 1px solid #26384c;
+        border-radius: 16px;
+        transition:
+            transform 0.3s ease,
+            border-color 0.3s ease,
+            background-color 0.3s ease;
+    }
+
+    .experience-card:hover {
+        transform: translateY(-10px);
+        border-color: #4c8dff;
+        background-color: #14263a;
+    }
+
+    .featured-card {
+        background-color: #1d5bdd;
+        border-color: #1d5bdd;
+    }
+
+    .featured-card:hover {
+        background-color: #2869e8;
+        border-color: #2869e8;
+    }
+
+    .card-icon {
+        width: 55px;
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 28px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        font-size: 25px;
+    }
+
+    .card-number {
+        position: absolute;
+        top: 35px;
+        right: 32px;
+        color: #718096;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .featured-card .card-number {
+        color: #c9dbff;
+    }
+
+    .experience-card h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .experience-card p {
+        color: #aeb8c5;
+        font-size: 15px;
+        line-height: 1.6;
+        margin-bottom: 28px;
+    }
+
+    .featured-card p {
+        color: #e0eaff;
+    }
+
+    .card-link {
+        color: #4c8dff;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .card-link:hover {
+        color: white;
+    }
+
+    .featured-card .card-link {
+        color: white;
+    }
+
+    .build-lab-cta {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 55px;
+        padding: 25px 30px;
+        background-color: #111f2e;
+        border: 1px solid #26384c;
+        border-radius: 12px;
+    }
+
+    .build-lab-cta p {
+        color: #d7dee8;
+        font-size: 16px;
+    }
+
+    .cta-button {
+        padding: 13px 25px;
+        background-color: #2864e8;
+        border-radius: 7px;
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+        background-color: #174bbd;
+    }
